@@ -17,3 +17,9 @@ class Sotrudnik:
         self.sname = sname
         self.login = login
         self.password = password
+
+    def getAllInfo(self):
+        '''
+        Метод возвращает значения всех параметров
+        '''
+        return f"{self.name} {self.fname} {self.sname} {self.email} {self.login} {self.password}"
